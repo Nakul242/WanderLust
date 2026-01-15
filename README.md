@@ -1,6 +1,6 @@
 # 🌍 WanderLust — Travel Listing Web App
 
-WanderLust is a full-stack travel listing platform inspired by Airbnb, where users can explore destinations, add listings, write reviews, and manage their own properties.
+WanderLust is a full-stack travel listing platform inspired by Airbnb and MakeMytrip, where users can explore destinations, add listings, write reviews, and manage their own properties.
 
 This project is built using the MERN stack (without React) following MVC architecture and RESTful principles.
 
