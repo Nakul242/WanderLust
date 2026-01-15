@@ -14,7 +14,7 @@ This project is built using the MERN stack (without React) following MVC archite
 - 🔒 Secure password hashing with passport-local-mongoose
 - 🗂️ MongoDB session store using connect-mongo
 - ⚠️ Server-side validation using Joi
-- 🧭 Map integration using Mapbox
+- 🧭 Map integration using Leaflet.js
 - 💬 Flash messages for user feedback
 - ❌ Custom error handling using ExpressError
 
