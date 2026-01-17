@@ -61,9 +61,14 @@ module.exports.createListing = async (req, res, next) => {
         // Geocoding with OpenStreetMap Nominatim
         const locationQuery = encodeURIComponent(req.body.listing.location);
         const response = await axios.get(
-            `https://nominatim.openstreetmap.org/search?q=${locationQuery}&format=json&limit=1`
+            `https://nominatim.openstreetmap.org/search?q=${locationQuery}&format=json&limit=1`,
+            {
+                headers: {
+                "User-Agent": "WanderLustApp/1.0 (student project)"
+                }
+            }
         );
-        
+
         if (response.data && response.data.length > 0) {
             const { lat, lon } = response.data[0];
             newListing.geometry = {
